@@ -35,7 +35,7 @@
         }
         public void validarPosicao(Posicao pos) {
             if (!posicaoValida(pos)) {
-                throw new TabuleiroException("Posição inválida!")
+                throw new TabuleiroException("Posição inválida!");
             }
         }
     }
